@@ -3,17 +3,18 @@ body {
   font-family: 'Tinos', serif;
   margin: 0;
   text-align: center;
+  background-color: #faf3dd;
 }
 
 hr {
   border: dotted #B0CAC7 6px;
   border-bottom: none;
   width: 5%;
-  margin: 100px auto;
+  margin: 70px auto;
 }
 
 h1 {
-  color: #66BFBF;
+  color: #68b0ab;
   font-family: 'Handlee', cursive;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
@@ -21,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: #66BFBF;
+  color: #68b0ab;
   font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -33,15 +34,10 @@ h3 {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 a {
-  color: #11999E;
-  font-family: 'Nunito', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-  font-weight: normal;
 }
 
 a:hover {
@@ -53,12 +49,12 @@ a:hover {
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #c8d5b9;
   padding-top: 100px;
 }
 
 .middle-container {
-  margin: 100px 0;
+    margin: 50px 0;
 }
 
 .top-cloud {
@@ -68,13 +64,14 @@ a:hover {
 }
 
 .bottom-cloud {
-  position: absolute;
+  position: fixed;
   left: 250px;
   bottom: 300px;
 }
 
 .profile-image {
   width: 150px;
+  padding-bottom: 40px;
   }
 
 .html-image {
@@ -121,11 +118,28 @@ a:hover {
 }
 */
 
-.skills {
+.card {
+  max-width: 18rem;
+  background-color: #e0ece4;
+  padding: 20px;
+}
 
+.row {
+  margin: 50px;
 }
 
 .btn {
+  background-color: #9cada4;
+  color: #30475e;
+}
+
+.btn:hover {
+  background-color: #30475e;
+  color: #9cada4;
+
+}
+
+/*.btn {
    background: #38CDD5;
    background-image: -webkit-linear-gradient(top, #38CDD5, #158489);
    background-image: -moz-linear-gradient(top, #38CDD5, #158489);
@@ -144,18 +158,23 @@ a:hover {
    display: inline-block;
    cursor: pointer;
    text-align: center;
-}
+}*/
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #c8d5b9;
   padding: 50px 0 20px;
 }
 
 .footer-link {
+  color: #11999E;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #68b0ab;
   font-size: 0.75rem;
   padding-top: 20px 0 20px;
 }
