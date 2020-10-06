@@ -51,6 +51,7 @@ a:hover {
 .top-container {
   background-color: #c8d5b9;
   padding-top: 100px;
+  padding-bottom: 70px;
 }
 
 .middle-container {
@@ -71,7 +72,7 @@ a:hover {
 
 .profile-image {
   width: 150px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px;
   }
 
 .html-image {
@@ -176,5 +177,5 @@ a:hover {
 .copyright {
   color: #68b0ab;
   font-size: 0.75rem;
-  padding-top: 20px 0 20px;
+  padding: 20px 0 20px;
 }
